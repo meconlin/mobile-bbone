@@ -14,7 +14,9 @@ I like to use Python
 - header needs navigation/controls
 - post a reply
 - post a comment
-- post user settings, including pic?
+- post user settings, including pic ?
+- login needs to capture current user and save
+- session control/auth on routing ?
 - bower, grunt, karma this up  
 - unit tests
 - consider requirejs for improved packaging ?
