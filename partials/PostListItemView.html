@@ -1,0 +1,68 @@
+<div id="postlistitem">
+
+<!-- TODO : MConlin 4/2014 
+            LOTS of room for improvement here.
+            need indicators for new since last login flag newCommentForUser
+
+            ?? Do I care about edit count on comments ??
+
+            - REPLY does nothing
+            - Needs filter on collection by date ranges...
+--> 
+                            
+<ul class="no-bullets">
+<li>
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <div class="row">
+             <div class="col-md-12">
+                 <img class="img-responsive pull-left logo" src="http://bfapp-bfsharing.rhcloud.com/<%= postUser.imageUrl %>" /> 
+             </div>
+        </div>
+        <div class="row">
+             <div class="col-md-12">
+                 <small><%= postUser.username %> - <%= moment( createdDate ).fromNow(  ) %> </small>
+             </div>
+        </div>
+         <div class="row">
+             <div class="col-md-12">
+                 <HR>
+                 <%= postText %>
+             </div>
+         </div>        
+    </div>
+    <div class="panel-body">
+         <div class="row"> 
+             <ul class="no-bullets">
+                <% _.each(comments, function(comment) { %>
+                    <li>
+                        <div class="row">
+                             <div class="col-md-12">
+                                 <img class="img-responsive pull-left logo" src="http://bfapp-bfsharing.rhcloud.com/<%= comment.commentUser.imageUrl %>" /> 
+                             </div>
+                        </div>
+                        <div class="row">
+                             <div class="col-md-12">
+                                 <small><%= comment.commentUser.username %>- <%= moment( comment.createdDate ).fromNow(  ) %></small>
+                             </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <%= comment.commentText %>
+                            </div>
+                        </div>
+                    </li>
+                <% }); %>
+                </ul>
+        </div>
+        <div class="row">
+             <div class="col-md-12">
+                 <button type="button" class="btn btn-primary btn-xs pull-right">Reply</button> 
+             </div>
+        </div>
+    </div>   
+ </div>
+ </li> 
+ </ul>
+
+</div>

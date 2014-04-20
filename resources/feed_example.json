@@ -1,0 +1,829 @@
+[
+  {
+    "__v": 1,
+    "_id": "5351446c7222e20000000016",
+    "postText": "Test",
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "numUpdates": 0,
+    "comments": [
+      {
+        "_id": "535144ba7222e20000000019",
+        "commentText": "This is a test comment. ",
+        "commentUser": {
+          "_id": "521823e1139418ce60000002",
+          "imageUrl": "/profilepic/test1_1392376673439.jpg",
+          "username": "test1"
+        },
+        "numCommentUpdates": 0,
+        "createdDate": "2014-04-18T15:28:58.995Z"
+      }
+    ],
+    "lastUpdatedDate": "2014-04-18T15:28:58.995Z",
+    "createdDate": "2014-04-18T15:27:40.137Z"
+  },
+  {
+    "__v": 1,
+    "_id": "535144757222e20000000017",
+    "postText": "This is a test",
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "numUpdates": 0,
+    "comments": [
+      {
+        "_id": "535144897222e20000000018",
+        "commentText": "Hi comment",
+        "commentUser": {
+          "_id": "521823e1139418ce60000002",
+          "imageUrl": "/profilepic/test1_1392376673439.jpg",
+          "username": "test1"
+        },
+        "numCommentUpdates": 0,
+        "createdDate": "2014-04-18T15:28:09.212Z"
+      }
+    ],
+    "lastUpdatedDate": "2014-04-18T15:28:09.212Z",
+    "createdDate": "2014-04-18T15:27:49.176Z"
+  },
+  {
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "postText": "tet3",
+    "_id": "534ef4657222e20000000015",
+    "__v": 0,
+    "numUpdates": 0,
+    "comments": [],
+    "lastUpdatedDate": "2014-04-16T21:21:41.818Z",
+    "createdDate": "2014-04-16T21:21:41.818Z"
+  },
+  {
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "postText": "test",
+    "_id": "534ef40d7222e20000000014",
+    "__v": 0,
+    "numUpdates": 0,
+    "comments": [],
+    "lastUpdatedDate": "2014-04-16T21:20:13.728Z",
+    "createdDate": "2014-04-16T21:20:13.728Z"
+  },
+  {
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "postText": "test",
+    "_id": "534ef3f37222e20000000013",
+    "__v": 0,
+    "numUpdates": 0,
+    "comments": [],
+    "lastUpdatedDate": "2014-04-16T21:19:47.194Z",
+    "createdDate": "2014-04-16T21:19:47.194Z"
+  },
+  {
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "postText": "test",
+    "_id": "534ef3f37222e20000000012",
+    "__v": 0,
+    "numUpdates": 0,
+    "comments": [],
+    "lastUpdatedDate": "2014-04-16T21:19:47.093Z",
+    "createdDate": "2014-04-16T21:19:47.093Z"
+  },
+  {
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "postText": "FINAL POST",
+    "_id": "534ef3e37222e20000000011",
+    "__v": 0,
+    "numUpdates": 0,
+    "comments": [],
+    "lastUpdatedDate": "2014-04-16T21:19:31.871Z",
+    "createdDate": "2014-04-16T21:19:31.871Z"
+  },
+  {
+    "__v": 3,
+    "_id": "534ec6a97222e2000000000d",
+    "postText": "Test 2 from iphone",
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "numUpdates": 0,
+    "comments": [
+      {
+        "_id": "534ec6b97222e2000000000e",
+        "commentText": "Test comment from iphone",
+        "commentUser": {
+          "_id": "521823e1139418ce60000002",
+          "imageUrl": "/profilepic/test1_1392376673439.jpg",
+          "username": "test1"
+        },
+        "numCommentUpdates": 0,
+        "createdDate": "2014-04-16T18:06:49.598Z"
+      },
+      {
+        "_id": "534ec6ee7222e2000000000f",
+        "commentText": "Test comment2 from iphone",
+        "commentUser": {
+          "_id": "521823e1139418ce60000002",
+          "imageUrl": "/profilepic/test1_1392376673439.jpg",
+          "username": "test1"
+        },
+        "numCommentUpdates": 0,
+        "createdDate": "2014-04-16T18:07:42.836Z"
+      },
+      {
+        "_id": "534ef3cd7222e20000000010",
+        "commentText": "test 3",
+        "commentUser": {
+          "_id": "521823e1139418ce60000002",
+          "imageUrl": "/profilepic/test1_1392376673439.jpg",
+          "username": "test1"
+        },
+        "numCommentUpdates": 0,
+        "createdDate": "2014-04-16T21:19:09.859Z"
+      }
+    ],
+    "lastUpdatedDate": "2014-04-16T21:19:09.859Z",
+    "createdDate": "2014-04-16T18:06:33.549Z"
+  },
+  {
+    "__v": 2,
+    "_id": "534579edb8e4940000000002",
+    "postText": "This%is%a%test%from%PJM",
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "numUpdates": 0,
+    "comments": [
+      {
+        "_id": "534ebfb57222e2000000000b",
+        "commentText": "Test from iphone",
+        "commentUser": {
+          "_id": "521823e1139418ce60000002",
+          "imageUrl": "/profilepic/test1_1392376673439.jpg",
+          "username": "test1"
+        },
+        "numCommentUpdates": 0,
+        "createdDate": "2014-04-16T17:36:53.666Z"
+      },
+      {
+        "_id": "534ebfbb7222e2000000000c",
+        "commentText": "Test from iphone",
+        "commentUser": {
+          "_id": "521823e1139418ce60000002",
+          "imageUrl": "/profilepic/test1_1392376673439.jpg",
+          "username": "test1"
+        },
+        "numCommentUpdates": 0,
+        "createdDate": "2014-04-16T17:36:59.730Z"
+      }
+    ],
+    "lastUpdatedDate": "2014-04-16T17:36:59.730Z",
+    "createdDate": "2014-04-09T16:48:45.481Z"
+  },
+  {
+    "__v": 1,
+    "_id": "53457a22b8e4940000000003",
+    "postText": "Testing posting from user test2",
+    "postUser": {
+      "_id": "5218243b139418ce60000003",
+      "imageUrl": "/profilepic/generic-profile.jpg",
+      "username": "test2"
+    },
+    "numUpdates": 0,
+    "comments": [
+      {
+        "_id": "534ebd577222e2000000000a",
+        "commentText": "test Comment",
+        "commentUser": {
+          "_id": "521823e1139418ce60000002",
+          "imageUrl": "/profilepic/test1_1392376673439.jpg",
+          "username": "test1"
+        },
+        "numCommentUpdates": 0,
+        "createdDate": "2014-04-16T17:26:47.907Z"
+      }
+    ],
+    "lastUpdatedDate": "2014-04-16T17:26:47.907Z",
+    "createdDate": "2014-04-09T16:49:38.469Z"
+  },
+  {
+    "__v": 1,
+    "_id": "534ddb247222e20000000002",
+    "postText": "test123",
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "numUpdates": 0,
+    "comments": [
+      {
+        "_id": "534ead1d7222e20000000009",
+        "commentText": "test",
+        "commentUser": {
+          "_id": "521823e1139418ce60000002",
+          "imageUrl": "/profilepic/test1_1392376673439.jpg",
+          "username": "test1"
+        },
+        "numCommentUpdates": 0,
+        "createdDate": "2014-04-16T16:17:33.125Z"
+      }
+    ],
+    "lastUpdatedDate": "2014-04-16T16:17:33.125Z",
+    "createdDate": "2014-04-16T01:21:40.310Z"
+  },
+  {
+    "__v": 1,
+    "_id": "534ddb4d7222e20000000003",
+    "postText": "test again",
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "numUpdates": 0,
+    "comments": [
+      {
+        "_id": "534eacf07222e20000000008",
+        "commentText": "test",
+        "commentUser": {
+          "_id": "521823e1139418ce60000002",
+          "imageUrl": "/profilepic/test1_1392376673439.jpg",
+          "username": "test1"
+        },
+        "numCommentUpdates": 0,
+        "createdDate": "2014-04-16T16:16:48.333Z"
+      }
+    ],
+    "lastUpdatedDate": "2014-04-16T16:16:48.333Z",
+    "createdDate": "2014-04-16T01:22:21.200Z"
+  },
+  {
+    "__v": 1,
+    "_id": "534ea7217222e20000000004",
+    "postText": "Wed",
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "numUpdates": 0,
+    "comments": [
+      {
+        "_id": "534eaccf7222e20000000007",
+        "commentText": "test",
+        "commentUser": {
+          "_id": "521823e1139418ce60000002",
+          "imageUrl": "/profilepic/test1_1392376673439.jpg",
+          "username": "test1"
+        },
+        "numCommentUpdates": 0,
+        "createdDate": "2014-04-16T16:16:15.517Z"
+      }
+    ],
+    "lastUpdatedDate": "2014-04-16T16:16:15.517Z",
+    "createdDate": "2014-04-16T15:52:01.934Z"
+  },
+  {
+    "__v": 1,
+    "_id": "534ea7777222e20000000005",
+    "postText": "test",
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "numUpdates": 0,
+    "comments": [
+      {
+        "_id": "534eab0a7222e20000000006",
+        "commentText": "Test",
+        "commentUser": {
+          "_id": "521823e1139418ce60000002",
+          "imageUrl": "/profilepic/test1_1392376673439.jpg",
+          "username": "test1"
+        },
+        "numCommentUpdates": 0,
+        "createdDate": "2014-04-16T16:08:42.506Z"
+      }
+    ],
+    "lastUpdatedDate": "2014-04-16T16:08:42.506Z",
+    "createdDate": "2014-04-16T15:53:27.730Z"
+  },
+  {
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "postText": "This%is%a%test%from%PJM",
+    "_id": "5342d516ae16620000000002",
+    "__v": 0,
+    "numUpdates": 0,
+    "comments": [],
+    "lastUpdatedDate": "2014-04-07T16:40:54.493Z",
+    "createdDate": "2014-04-07T16:40:54.493Z"
+  },
+  {
+    "__v": 2,
+    "_id": "531a331e44b322000000000e",
+    "originalPostText": "New post",
+    "postText": "upfsyr",
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "numUpdates": 1,
+    "comments": [
+      {
+        "_id": "531a334144b322000000000f",
+        "commentText": "Comment goes here",
+        "commentUser": {
+          "_id": "521823e1139418ce60000002",
+          "imageUrl": "/profilepic/test1_1392376673439.jpg",
+          "username": "test1"
+        },
+        "numCommentUpdates": 0,
+        "createdDate": "2014-03-07T20:59:45.009Z"
+      },
+      {
+        "_id": "531a334244b3220000000010",
+        "commentText": "Comment goes here",
+        "commentUser": {
+          "_id": "521823e1139418ce60000002",
+          "imageUrl": "/profilepic/test1_1392376673439.jpg",
+          "username": "test1"
+        },
+        "numCommentUpdates": 0,
+        "createdDate": "2014-03-07T20:59:46.933Z"
+      }
+    ],
+    "lastUpdatedDate": "2014-03-07T20:59:46.933Z",
+    "createdDate": "2014-03-07T20:59:10.657Z"
+  },
+  {
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "postText": "Bdbd",
+    "_id": "531a18f444b322000000000d",
+    "__v": 0,
+    "numUpdates": 0,
+    "comments": [],
+    "lastUpdatedDate": "2014-03-07T19:07:32.467Z",
+    "createdDate": "2014-03-07T19:07:32.467Z"
+  },
+  {
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "postText": "Here is another message\nmore stuff",
+    "_id": "531a186a44b322000000000c",
+    "__v": 0,
+    "numUpdates": 0,
+    "comments": [],
+    "lastUpdatedDate": "2014-03-07T19:05:14.382Z",
+    "createdDate": "2014-03-07T19:05:14.382Z"
+  },
+  {
+    "__v": 4,
+    "_id": "53176cc144b3220000000003",
+    "postText": "This is a test of new post logic",
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "numUpdates": 0,
+    "comments": [
+      {
+        "_id": "5317dc0744b3220000000004",
+        "commentText": "This is a test of commenting",
+        "commentUser": {
+          "_id": "521823e1139418ce60000002",
+          "imageUrl": "/profilepic/test1_1392376673439.jpg",
+          "username": "test1"
+        },
+        "numCommentUpdates": 0,
+        "createdDate": "2014-03-06T02:23:03.697Z"
+      },
+      {
+        "_id": "5317f4bd44b3220000000008",
+        "commentText": "Another comment test",
+        "commentUser": {
+          "_id": "521823e1139418ce60000002",
+          "imageUrl": "/profilepic/test1_1392376673439.jpg",
+          "username": "test1"
+        },
+        "numCommentUpdates": 0,
+        "createdDate": "2014-03-06T04:08:29.899Z"
+      },
+      {
+        "_id": "5319c21e44b3220000000009",
+        "commentText": "this is a test from the emulator",
+        "commentUser": {
+          "_id": "521823e1139418ce60000002",
+          "imageUrl": "/profilepic/test1_1392376673439.jpg",
+          "username": "test1"
+        },
+        "numCommentUpdates": 0,
+        "createdDate": "2014-03-07T12:57:02.854Z"
+      },
+      {
+        "_id": "531a184f44b322000000000b",
+        "commentText": "yest another",
+        "commentUser": {
+          "_id": "521823e1139418ce60000002",
+          "imageUrl": "/profilepic/test1_1392376673439.jpg",
+          "username": "test1"
+        },
+        "numCommentUpdates": 0,
+        "createdDate": "2014-03-07T19:04:47.541Z"
+      }
+    ],
+    "lastUpdatedDate": "2014-03-07T19:04:47.541Z",
+    "createdDate": "2014-03-05T18:28:17.798Z"
+  },
+  {
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "postText": "A test from my phone",
+    "_id": "5319f3fe44b322000000000a",
+    "__v": 0,
+    "numUpdates": 0,
+    "comments": [],
+    "lastUpdatedDate": "2014-03-07T16:29:50.242Z",
+    "createdDate": "2014-03-07T16:29:50.242Z"
+  },
+  {
+    "__v": 2,
+    "_id": "5317e2ed44b3220000000005",
+    "postText": "test",
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "numUpdates": 0,
+    "comments": [
+      {
+        "_id": "5317f01744b3220000000006",
+        "commentText": "tst",
+        "commentUser": {
+          "_id": "521823e1139418ce60000002",
+          "imageUrl": "/profilepic/test1_1392376673439.jpg",
+          "username": "test1"
+        },
+        "numCommentUpdates": 0,
+        "createdDate": "2014-03-06T03:48:39.574Z"
+      },
+      {
+        "_id": "5317f03044b3220000000007",
+        "commentText": "Blarg!",
+        "commentUser": {
+          "_id": "521823e1139418ce60000002",
+          "imageUrl": "/profilepic/test1_1392376673439.jpg",
+          "username": "test1"
+        },
+        "numCommentUpdates": 0,
+        "createdDate": "2014-03-06T03:49:04.067Z"
+      }
+    ],
+    "lastUpdatedDate": "2014-03-06T03:49:04.067Z",
+    "createdDate": "2014-03-06T02:52:29.892Z"
+  },
+  {
+    "__v": 0,
+    "_id": "5316231744b3220000000002",
+    "originalPostText": "Yo yo",
+    "postText": "modified text",
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "numUpdates": 3,
+    "comments": [],
+    "lastUpdatedDate": "2014-03-04T19:01:43.976Z",
+    "createdDate": "2014-03-04T19:01:43.976Z"
+  },
+  {
+    "__v": 0,
+    "_id": "5313c3dc5dce72000000000c",
+    "originalPostText": "Hello",
+    "postText": "update2",
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "numUpdates": 2,
+    "comments": [],
+    "lastUpdatedDate": "2014-03-02T23:50:52.673Z",
+    "createdDate": "2014-03-02T23:50:52.673Z"
+  },
+  {
+    "__v": 0,
+    "_id": "5312a5c95dce72000000000b",
+    "originalPostText": "testing textarea",
+    "postText": "Testing to see if I need to escape the text...",
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "numUpdates": 1,
+    "comments": [],
+    "lastUpdatedDate": "2014-03-02T03:30:17.364Z",
+    "createdDate": "2014-03-02T03:30:17.364Z"
+  },
+  {
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "postText": "test",
+    "_id": "5312a5a05dce72000000000a",
+    "__v": 0,
+    "numUpdates": 0,
+    "comments": [],
+    "lastUpdatedDate": "2014-03-02T03:29:36.538Z",
+    "createdDate": "2014-03-02T03:29:36.538Z"
+  },
+  {
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "postText": "Another test",
+    "_id": "5312a5265dce720000000009",
+    "__v": 0,
+    "numUpdates": 0,
+    "comments": [],
+    "lastUpdatedDate": "2014-03-02T03:27:34.513Z",
+    "createdDate": "2014-03-02T03:27:34.513Z"
+  },
+  {
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "postText": "blah",
+    "_id": "53129a375dce720000000008",
+    "__v": 0,
+    "numUpdates": 0,
+    "comments": [],
+    "lastUpdatedDate": "2014-03-02T02:40:55.551Z",
+    "createdDate": "2014-03-02T02:40:55.551Z"
+  },
+  {
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "postText": "Tweet tweet tweet, all day long!",
+    "_id": "531299c45dce720000000007",
+    "__v": 0,
+    "numUpdates": 0,
+    "comments": [],
+    "lastUpdatedDate": "2014-03-02T02:39:00.454Z",
+    "createdDate": "2014-03-02T02:39:00.454Z"
+  },
+  {
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "postText": "Tweet tweet tweet, all day long!",
+    "_id": "531299af5dce720000000006",
+    "__v": 0,
+    "numUpdates": 0,
+    "comments": [],
+    "lastUpdatedDate": "2014-03-02T02:38:39.442Z",
+    "createdDate": "2014-03-02T02:38:39.442Z"
+  },
+  {
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "postText": "Cant get my statusbar to go away...",
+    "_id": "531299865dce720000000005",
+    "__v": 0,
+    "numUpdates": 0,
+    "comments": [],
+    "lastUpdatedDate": "2014-03-02T02:37:58.481Z",
+    "createdDate": "2014-03-02T02:37:58.481Z"
+  },
+  {
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "postText": "Tseting more stuff",
+    "_id": "531298e05dce720000000004",
+    "__v": 0,
+    "numUpdates": 0,
+    "comments": [],
+    "lastUpdatedDate": "2014-03-02T02:35:12.592Z",
+    "createdDate": "2014-03-02T02:35:12.592Z"
+  },
+  {
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "postText": "Oh yea",
+    "_id": "531297935dce720000000003",
+    "__v": 0,
+    "numUpdates": 0,
+    "comments": [],
+    "lastUpdatedDate": "2014-03-02T02:29:39.756Z",
+    "createdDate": "2014-03-02T02:29:39.756Z"
+  },
+  {
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "postText": "Sending a tweet",
+    "_id": "53128f665dce720000000002",
+    "__v": 0,
+    "numUpdates": 0,
+    "comments": [],
+    "lastUpdatedDate": "2014-03-02T01:54:46.469Z",
+    "createdDate": "2014-03-02T01:54:46.469Z"
+  },
+  {
+    "__v": 1,
+    "_id": "530f8f71ec01780000000005",
+    "postText": "Creating a new post",
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "numUpdates": 0,
+    "comments": [
+      {
+        "_id": "530f8f7cec01780000000006",
+        "commentText": "adding a comment here",
+        "commentUser": {
+          "_id": "521823e1139418ce60000002",
+          "imageUrl": "/profilepic/test1_1392376673439.jpg",
+          "username": "test1"
+        },
+        "numCommentUpdates": 0,
+        "createdDate": "2014-02-27T19:18:20.121Z"
+      }
+    ],
+    "lastUpdatedDate": "2014-02-27T19:18:20.121Z",
+    "createdDate": "2014-02-27T19:18:09.039Z"
+  },
+  {
+    "__v": 3,
+    "_id": "52574ef998e0f4ab2f000002",
+    "postText": "This is my first post!",
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "numUpdates": 0,
+    "comments": [
+      {
+        "_id": "5257508098e0f4ab2f000003",
+        "commentText": "I am commenting on my first post. This is fun.",
+        "commentUser": {
+          "_id": "521823e1139418ce60000002",
+          "imageUrl": "/profilepic/test1_1392376673439.jpg",
+          "username": "test1"
+        },
+        "numCommentUpdates": 0,
+        "createdDate": "2013-10-11T01:12:32.264Z"
+      },
+      {
+        "_id": "530ecd9aec01780000000003",
+        "commentText": "Commenting as test3",
+        "commentUser": {
+          "_id": "52182447139418ce60000004",
+          "imageUrl": "/profilepic/generic-profile.jpg",
+          "username": "test3"
+        },
+        "numCommentUpdates": 0,
+        "createdDate": "2014-02-27T05:31:06.749Z"
+      },
+      {
+        "_id": "530ecdbeec01780000000004",
+        "commentText": "And another comment!",
+        "commentUser": {
+          "_id": "52182447139418ce60000004",
+          "imageUrl": "/profilepic/generic-profile.jpg",
+          "username": "test3"
+        },
+        "numCommentUpdates": 0,
+        "createdDate": "2014-02-27T05:31:42.948Z"
+      }
+    ],
+    "lastUpdatedDate": "2014-02-27T05:31:42.948Z",
+    "createdDate": "2013-10-11T01:06:01.253Z"
+  },
+  {
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "postText": "asdfasdfads",
+    "_id": "530eb3c6ec01780000000002",
+    "__v": 0,
+    "numUpdates": 0,
+    "comments": [],
+    "lastUpdatedDate": "2014-02-27T03:40:54.993Z",
+    "createdDate": "2014-02-27T03:40:54.993Z"
+  },
+  {
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "postText": "Test post",
+    "_id": "52fa7af947499d0000000002",
+    "__v": 0,
+    "numUpdates": 0,
+    "comments": [],
+    "lastUpdatedDate": "2014-02-11T19:33:13.822Z",
+    "createdDate": "2014-02-11T19:33:13.821Z"
+  },
+  {
+    "__v": 1,
+    "_id": "52f1735869fcf50000000002",
+    "postText": "Hello World",
+    "postUser": {
+      "_id": "521823e1139418ce60000002",
+      "imageUrl": "/profilepic/test1_1392376673439.jpg",
+      "username": "test1"
+    },
+    "numUpdates": 0,
+    "comments": [
+      {
+        "_id": "52f179b669fcf50000000003",
+        "commentText": "This is a reply (edit)",
+        "commentUser": {
+          "_id": "521823e1139418ce60000002",
+          "imageUrl": "/profilepic/test1_1392376673439.jpg",
+          "username": "test1"
+        },
+        "originalCommentText": "This is a reply",
+        "numCommentUpdates": 2,
+        "createdDate": "2014-02-04T23:37:26.647Z"
+      }
+    ],
+    "lastUpdatedDate": "2014-02-04T23:37:26.647Z",
+    "createdDate": "2014-02-04T23:10:16.216Z"
+  }
+]
