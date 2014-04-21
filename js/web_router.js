@@ -1,5 +1,5 @@
-window.APP = window.APP || {};
 "use strict";
+window.APP = window.APP || {};
 APP.WebRouter = Backbone.Router.extend({
   routes: {
       "": "login",

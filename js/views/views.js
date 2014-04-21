@@ -1,5 +1,19 @@
+"use strict";
+/** 
+    NOTES : 
+    
+    binding a model to a view for updates
+    
+    var UpdatingDonutView = DonutView.extend({
+        initialize : function(options) {
+        this.render = _.bind(this.render, this); 
+ 
+        this.model.bind('change:name', this.render);
+    }
+    });
+
+**/ 
 $(document).ready(function() {
-    "use strict";
     APP.PostListView = Backbone.View.extend({
         initialize: function () {
             this.render();
@@ -32,7 +46,6 @@ $(document).ready(function() {
         tagName: "div",
         initialize: function(){
             _.bindAll(this, 'render');
-            //handle error
             this.model.bind('error', this.handleError);
         },
         handleError: function (model, errors){

@@ -1,11 +1,10 @@
+"use strict";
 $(document).ready(function() {
-  "use strict";
   APP.PostModel = Backbone.Model.extend({
-    url: 'http://bfapp-bfsharing.rhcloud.com/post',
+    url: REST+'/post',
     defaults:{
     },
     initialize: function () {},
-
   });
 
   APP.PostCollectionModel = Backbone.Collection.extend({
@@ -14,12 +13,9 @@ $(document).ready(function() {
     defaults:{
     },
     initialize: function () {},
-
   });
 
   APP.CredentialsModel = Backbone.Model.extend({
-    // TODO Mconlin 4/2014 : base url somewhere else... this
-    //
     url: REST+'/login',
     defaults: {
     },
