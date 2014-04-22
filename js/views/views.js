@@ -21,10 +21,10 @@ $(document).ready(function() {
         render: function () {
             var posts = this.model.models;
             var len = posts.length;
-            $(this.el).html('<ul class="postlist"></ul>');
+            $(this.el).html('<div id="postlist"></div>');
             for(var i = 0; i<len; i++)
             { 
-                $('.postlist', this.el).append(new APP.PostListItemView({model: posts[i]}).render().el);
+                $('#postlist', this.el).append(new APP.PostListItemView({model: posts[i]}).render().el);
             }
             return this;
         }
