@@ -14,6 +14,38 @@
 
 **/ 
 $(document).ready(function() {
+
+    APP.HeaderView = Backbone.View.extend({
+        initialize: function () {
+            this.render();
+        },
+        render: function () {
+            $(this.el).html(this.template());
+            return this;
+        },
+        clearAll: function (){
+            $('.nav li').removeClass('active');
+        },
+        inActiveAll: function(){
+            $('.nav li').addClass('inactive');
+        },
+        selectMenuItem: function (menuItem) {
+            $('.nav li').removeClass('active');
+            if (menuItem) {
+                $('.' + menuItem).addClass('active');
+            }
+        }
+    });
+
+    APP.CreatePostView = Backbone.View.extend({
+        initialize: function () {
+        },
+        render: function () {
+            $(this.el).html(this.template(this.model.toJSON()));
+            return this;
+        }
+    });
+
     APP.PostListView = Backbone.View.extend({
         initialize: function () {
             this.render();
