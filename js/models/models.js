@@ -49,6 +49,9 @@ $(document).ready(function() {
                 }
               });
         } else {
+          //TODO : MConlin 4/2014 
+          //       should this just be nothing, we dont really have other REST actions here
+          //
           return Backbone.sync(model, method, model, options);   
         }
     },

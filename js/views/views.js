@@ -81,7 +81,6 @@ $(document).ready(function() {
             this.model.bind('error', this.handleError);
         },
         handleError: function (model, errors){
-            var message = 'chicken';
             var alertdiv = $('#alerts');
 
             // TODO : template fragment?
@@ -102,16 +101,27 @@ $(document).ready(function() {
             var user = {'username': this.$("#username").val(), 
                         'password' : this.$("#password").val()
             };
+            var _self = this;
             this.model.set(user);
-            this.model.save(null,{                    
-                success: function (user) {
+            this.model.save(null,{                                      //you can override current model by replacing null with params                   
+                success: function (model, response) {
+                    console.log(model);
+                    console.log(response);
                     window.location.hash = "#/posts";
-                },
-                error: function (err) {
-                    //TODO MConlin 4/2014 : um get this on screen
+
+
+                    // TODO : MConlin 4/2014 
+                    // populate session object with login: true and this users data?
                     //
+
+                },
+                error: function (model, response) {
                     console.error('model.save : error :');
-                    console.error(err);
+                    console.error(response);
+                    if(!_.isNull(response)) {
+                        var error = {"message":response.error};
+                        _self.handleError(model, [error])
+                    }
                 },
                 wait: true
             });            

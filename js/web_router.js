@@ -34,7 +34,7 @@ APP.WebRouter = Backbone.Router.extend({
   }, 
   logout: function() {
 
-      //TODO : BUG  : 
+      // TODO : BUG  : 
       // this is still in HEADER when next send to api occurs, somebody still has it?
       // cookie is stored with cross domain name, not localhost.. so not sure how to wax it
       // destroy session cookie
