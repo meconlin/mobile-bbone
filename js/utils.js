@@ -1,3 +1,4 @@
+"use strict";
 $(document).ready(function() {
     APP.utils = {
         // Asynchronously load templates located in separate .html files

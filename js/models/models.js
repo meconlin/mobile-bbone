@@ -1,11 +1,10 @@
+"use strict";
 $(document).ready(function() {
-  "use strict";
   APP.PostModel = Backbone.Model.extend({
-    url: 'http://bfapp-bfsharing.rhcloud.com/post',
+    url: REST+'/post',
     defaults:{
     },
     initialize: function () {},
-
   });
 
   APP.PostCollectionModel = Backbone.Collection.extend({
@@ -14,12 +13,9 @@ $(document).ready(function() {
     defaults:{
     },
     initialize: function () {},
-
   });
 
   APP.CredentialsModel = Backbone.Model.extend({
-    // TODO Mconlin 4/2014 : base url somewhere else... this
-    //
     url: REST+'/login',
     defaults: {
     },
@@ -34,6 +30,8 @@ $(document).ready(function() {
         errors.push({name: 'password', message: 'Please provide a password'});
       }
 
+      console.log("models : validate");
+      console.log(errors);
       return errors.length > 0 ? errors : false;
     },
 
@@ -53,6 +51,9 @@ $(document).ready(function() {
                 }
               });
         } else {
+          //TODO : MConlin 4/2014 
+          //       should this just be nothing, we dont really have other REST actions here
+          //
           return Backbone.sync(model, method, model, options);   
         }
     },
