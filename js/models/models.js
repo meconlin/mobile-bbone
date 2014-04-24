@@ -30,6 +30,8 @@ $(document).ready(function() {
         errors.push({name: 'password', message: 'Please provide a password'});
       }
 
+      console.log("models : validate");
+      console.log(errors);
       return errors.length > 0 ? errors : false;
     },
 
